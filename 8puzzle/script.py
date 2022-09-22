@@ -1,3 +1,19 @@
+#!/usr/bin/env python
+
+# Copyright (C) 2022 CorentinGS under MIT License.
+# See LICENSE or https://opensource.org/licenses/MIT for more information.
+# https://github.com/CorentinGS/IIA/blob/main/8puzzle/script.py
+# This file is part of the 8puzzle exercise of the IIA course.
+# It's not meant to be used as a library or as a standalone program.
+# It's only used to run multiple tests and compare the two heuristics using the 8puzzle module from Jeremy Hummel.
+# The 8puzzle module is available at https://github.com/jmhummel/8puzzle/blob/master/8puzzle.py
+# Feel free to use this file as you want.
+# If you want to use it, you can use it under the MIT License.
+# If you want to modify it, you can modify it under the MIT License.
+# If you want to redistribute it, you can redistribute it under the MIT License.
+# Feel free to contact me if you have any questions or if you want to share your improvements.
+
+
 import importlib
 import random
 import time
