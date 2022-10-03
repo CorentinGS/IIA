@@ -65,6 +65,8 @@ diagnostic(grippe) :-
 	symptome('de la fièvre'),
 	symptome('des maux de tête'),
 	symptome('des douleurs musculaires').
+	ymptome('des maux de tête').
+
 	
 diagnostic(sinusite) :-
 	symptome('le nez qui coule'),
@@ -95,3 +97,25 @@ diagnostic(covid) :-
 	symptome('de la toux'),
 	symptome('de la fatigue'),
 	symptome('la perte de l\'odorat').
+
+
+diagnostic(rhinopharyngite) :-
+	symptome('le nez qui coule'),
+	symptome('de la toux'),
+	symptome('de la fièvre'),
+	symptome('de la fatigue'),
+	symptome('des picotements dans le nez').
+
+
+diagnostic(intoxication_alimentaire) :-
+	symptome('de la fièvre'),
+	symptome('des maux de tête').
+	symptome('des vomissements'),
+	symptome('la diarrhée'),
+	symptome('des nausées').
+
+diagnostic(glaucome) :-
+	symptome('très mal à l\'oeil'),
+	symptome('un halo coloré à côté des sources lumineuses'),
+	symptome('une nette baisse de vision'),
+	symptome('l\'oeil rouge').
